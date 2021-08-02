@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Basic Page Needs
+    ================================================== -->
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+	<!-- Specific Meta
+    ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta name="description" content="Intimate is a One Page Personal & Agency Portfolio Template." />
+	<meta name="keywords"
+		content="HTML5, Template, Design, agency, blog, business, clean, creative, marketing, modern, multipurpose, portfolio, seo, startup, studio, trending" />
+
+	<!-- Titles
+    ================================================== -->
+	<title>App do Colaborador</title>
+
+	<!-- Favicons
+    ================================================== -->
+	<link rel="shortcut icon" href="assets/images/favicon.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/images/android-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-icon-144x144.png" />
+
+	<!-- Custom Font
+	================================================== -->
+	<link
+		href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+		rel="stylesheet">
+
+	<!-- Welcome App - FUJITSU SANS Custom Font
+	================================================== -->
+	<style>
+		@font-face {
+			src: url(./assets/localFonts/FujitsuSansMedium.ttf);
+			font-family: "FujitsuSansMedium";
+		}
+	</style>
+
+
+	<!-- CSS
+    ================================================== -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+	<link rel="stylesheet" href="assets/css/simple-scrollbar.css" />
+	<link rel="stylesheet" href="assets/css/odometer-theme-default.css" />
+	<link rel="stylesheet" href="assets/css/fontawesome.all.min.css" />
+	<!-- This style use for this page -->
+	<link rel="stylesheet" href="assets/css/jquery.animatedheadline.css" />
+
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<link rel="stylesheet" href="../css/transition.css">
+	<link rel="stylesheet" href="./assets/css/mensagemRH.css" />
+	<link rel="stylesheet" href="./assets/css/scroll.css" />
+
+	<script src="assets/js/modernizr.min.js"></script>
+	<script src="assets/js/mensagemRH.js"></script>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navigation-area">
+	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		Start Site Header
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+	<header class="site-header default-header-style">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-12">
+					<div class="navigation-area">
+						<!-- Site Branding -->
+						<div class="site-branding">
+							<a href="index.html">
+								<img src="assets/images/logo/logo.png" alt="Site Logo" />
+							</a>
+						</div><!--  /.site-branding -->
+
+						<!-- Site Navigation -->
+						<div class="site-navigation">
+							<nav class="navigation">
+								<!-- Main Menu -->
+								<div class="menu-wrapper">
+									<div class="menu-content">
+										<ul class="mainmenu">
+											<li>
+												<a class="nav-link" href="./index-App.html">Home</a>
+											</li>
+											<li>
+												<a class="nav-link" href="#o-inicio">O Início</a>
+											</li>
+											<li>
+												<a class="nav-link" href="#na-fujitsu">Na Fujitsu</a>
+											</li>
+											<li>
+												<a class="nav-link" href="#departamentos">Departamentos</a>
+											</li>
+											<li>
+												<a class="nav-link" href="#sobre">Sobre Nós</a>
+											</li>
+											<li>
+												<a class="nav-link" href="#contactos">Contactos</a>
+											</li>
+										</ul> <!-- /.menu-list -->
+									</div> <!-- /.hours-content-->
+								</div><!-- /.menu-wrapper -->
+							</nav>
+						</div><!-- /.site-navigation -->
+						<div class="hamburger-menus">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div><!-- /.hamburger-menus -->
+					</div><!-- /.navigation-area -->
+				</div><!-- /.col-12 -->
+			</div><!-- /.row -->
+		</div><!-- /.container-fluid -->
+		<div class="mobile-sidebar-menu sidebar-menu">
+			<div class="overlaybg"></div>
+		</div>
+	</header>
+	<!--~~./ end site header ~~-->
+
+
+
+
+	<!--********************************************************-->
+	<!--********************* SITE CONTENT *********************-->
+	<!--********************************************************-->
+	<div class="site-content">
+		<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+				Hero Block
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+		<div id="hero-block" class="hero-block personal-home bg-image text-rotate-version bg-parallax"
+			style="background-image: url('assets/images/bg/hero-bg-8.jpg');">
+			<div class="waves-effect bottom" style="background-image: url('assets/images/others/shape.png');">
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-9">
+						<div class="hero-content-area">
+							<div class="hero-desc">
+								Olá ! <span></span> Hello !
+							</div>
+							<h1 class="hero-title cd-headline clip">
+								<span class="cd-words-wrapper">
+									<b class="is-visible">Bem-vindo</b>
+									<b>Welcome</b>
+								</span>
+							</h1>
+							<ul class="hero-services">
+								<li>shaping tomorrow with you</li>
+							</ul>
+
+							<a onclick="on()" class="btn btn-primary_2">RH
+								MSG</a>
+							<!-- App do Colaborador - Hero Popup -->
+							<div id="overlay_msg" class="animate" onclick="off()">
+								<div id="text_msg">Bem-vindo <br><br><br>
+									<p class="text_msg_corp">"À distância de poucos clicks vai poder encontrar
+										informação detalhada e
+										actualizada sobre os diversos processos e programas de gestão dos Recursos
+										Humanos da Fujitsu, bem como sobre os serviços de RH que estão disponíveis para
+										si.</p>
+									<p class="text_msg_corp">Esta página é feita para si e estará em constante
+										evolução, para melhor responder
+										às suas necessidades e para o ajudar a rentabilizar o seu tempo."</p>
+									<p class="text_msg_corp">Pedro Rocha Pires - Diretor RH</p>
+									<p class="text_msg_corp">Links úteis:</p>
+									<p class="text_msg_corp"><span><a href="#"> Link 1 /</a></span><span><a href="#">
+												Link 2 /</a></span><span><a href="#"> Link 3 /</a></span><span><a
+												href="#"> Link 4 /</a></span><span><a href="#"> Link 5</a></span></p>
+									<button class="btn btn-primary" style="margin-top: 33px;">Fechar </button>
+								</div>
+							</div>
+							<!-- END App do Colaborador - Hero Popup -->
+							<a href="./login.html" class="btn btn-primary" style="margin-left: 7px;">LOGIN</a>
+							<a href="#o-inicio" class="scroll-down">
+								<div class="mouse">
+									<span></span>
+								</div>
+								<div class="arrow">
+									<span></span>
+								</div>
+							</a>
+						</div><!-- /.hero-content-area -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /.hero-block -->
+
+		<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Start "O inicio"
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+		<div id="o-inicio" class="services-block pd-t-170">
+			<div class="container container-1200">
+				<div class="row justify-content-center">
+					<div class="col-lg-8">
+						<div class="section-title text-center">
+							<h2 class="title-main">
+								01 <span>O Início</span>
+							</h2><!-- /.title-main -->
+							<p class="sub-title">shaping tomorrow with you</p>
+						</div><!-- /.section-title -->
+					</div><!-- /.col-lg-8 -->
+				</div><!-- /.row -->
+
+				<div class="row services-items-list gutters-30">
+					<div class="col-lg-4 col-md-6">
+						<a class="service-item" href="./comoChegar.html">
+							<div class="service-icon">
+								<img src="assets/images/icon/services/Como_chegar.png" alt="Icon" />
+							</div>
+							<!-- /.service-icon -->
+							<h3 class="title">Como chegar</h3>
+						</a>
+						<!-- /.service-item -->
+					</div>
+					<!-- /.col-lg-4 -->
+					<div class="col-lg-4 col-md-6">
+						<a class="service-item" href="./404.html">
+							<div class="service-icon">
+								<img src="assets/images/icon/services/Quem_contactar.png" alt="Icon" />
+							</div>
+							<!-- /.service-icon -->
+							<h3 class="title">Quem contactar</h3>
+						</a>
+						<!-- /.service-item -->
+					</div>
+					<!-- /.col-lg-4 -->
+					<div class="col-lg-4 col-md-6">
+						<a class="service-item" href="./streetView.html">
+							<div class="service-icon">
+								<img src="assets/images/icon/services/Street_View.png" alt="Icon" />
+							</div>
+							<!-- /.service-icon -->
+							<h3 class="title">Street view</h3>
+						</a>
+						<!-- /.service-item -->
+					</div>
+					<!-- /.col-lg-4 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div>
+		<!--~~./ end "O inicio" ~~-->
+
+		<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Start "Na Fujitsu"
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+		<div id="na-fujitsu" class="services-block pd-t-170">
+			<div class="container container-1200">
+				<div class="row justify-content-center">
+					<div class="col-lg-8">
+						<div class="section-title text-center">
+							<h2 class="title-main">
+								02 <span>Na Fujitsu</span>
+							</h2><!-- /.title-main -->
+							<p class="sub-title">shaping tomorrow with you</p>
+						</div><!-- /.section-title -->
+					</div><!-- /.col-lg-8 -->
+				</div><!-- /.row -->
+
+				<div class="row services-items-list gutters-30">
+					<div class="col-lg-4 col-md-6">
+						<a class="service-item" href="./404.html">
+							<div class="service-icon">
+								<img src="assets/images/icon/services/ID.png" alt="Icon" />
+							</div>
+							<!-- /.service-icon -->
+							<h3 class="title">Os meus ID´s</h3>
+						</a>
+						<!-- /.service-item -->
+					</div>
+					<!-- /.col-lg-4 -->
+					<div class="col-lg-4 col-md-6">
+						<a class="service-item" href="./aMinhaArea.html">
+							<div class="service-icon">
+								<img src="assets/images/icon/services/A minha area.png" alt="Icon" />
+							</div>
+							<!-- /.service-icon -->
+							<h3 class="title">A minha àrea</h3>
+						</a>
+						<!-- /.service-item -->
+					</div>
+					<!-- /.col-lg-4 -->
+					<div class="col-lg-4 col-md-6">
+						<a class="service-item" href="./ferias.html">
+							<div class="service-icon">
+								<img src="assets/images/icon/services/ferias.png" alt="Icon" />
+							</div>
+							<!-- /.service-icon -->
+							<h3 class="title">Férias</h3>
+						</a>
+						<!-- /.service-item -->
+					</div>
+					<!-- /.col-lg-4 -->
+					<!-- /.col-lg-4 -->
+					<div class="col-lg-4 col-md-6">
+						<a class="service-item" href="./folhaDeHoras.html">
+							<div class="service-icon">
+								<img src="assets/images/icon/services/Folha_de_horas.png" alt="Icon" />
+							</div>
+							<!-- /.service-icon -->
+							<h3 class="title">Folha de Horas</h3>
+						</a>
+						<!-- /.service-item -->
+					</div>
+					<!-- /.col-lg-4 -->
+					<div class="col-lg-4 col-md-6">
+						<a class="service-item" href="./404.html">
+							<div class="service-icon">
+								<img src="assets/images/icon/services/Seg_saude.png" alt="Icon" />
+							</div>
+							<!-- /.service-icon -->
+							<h3 class="title">Seg. Saúde</h3>
+						</a>
+						<!-- /.service-item -->
+					</div>
+					<!-- /.col-lg-4 -->
+					<div class="col-lg-4 col-md-6">
+						<a class="service-item" href="./viagens.html">
+							<div class="service-icon">
+								<img src="./assets/images/icon/services/viagens.png" alt="Icon" />
+							</div>
+							<!-- /.service-icon -->
+							<h3 class="title">Viagens</h3>
+						</a>
+						<!-- /.service-item -->
+					</div>
+					<!-- /.col-lg-4 -->
+					<div class="col-lg-4 col-md-6">
+						<a class="service-item" href="./perfil.html">
+							<div class="service-icon">
+								<img src="./assets/images/icon/services/Perfil.png" alt="Icon" />
+							</div>
+							<!-- /.service-icon -->
+							<h3 class="title">Perfil</h3>
+						</a>
+						<!-- /.service-item -->
+					</div>
+					<!-- /.col-lg-4 -->
+					<div class="col-lg-4 col-md-6">
+						<a class="service-item" href="./contactosIT.html">
+							<div class="service-icon">
+								<img src="./assets/images/icon/services/ITSuporte.png" alt="Icon" />
+							</div>
+							<!-- /.service-icon -->
+							<h3 class="title">IT Support</h3>
+						</a>
+						<!-- /.service-item -->
+					</div>
+					<!-- /.col-lg-4 -->
+					<div class="col-lg-4 col-md-6">
+						<a class="service-item" href="./diversos.html">
+							<div class="service-icon">
+								<img src="./assets/images/icon/services/diversos.png" alt="Icon" />
+							</div>
+							<!-- /.service-icon -->
+							<h3 class="title">Diversos</h3>
+						</a>
+						<!-- /.service-item -->
+					</div>
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div>
+		<!--~~./ end "Na Fujitsu" ~~-->
+
+
+		<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Start "Departamentos"
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+		<div id="departamentos" class="services-block pd-t-170">
+			<div class="container container-1200">
+				<div class="row justify-content-center">
+					<div class="col-lg-8">
+						<div class="section-title text-center">
+							<h2 class="title-main">
+								03 <span>Departamentos</span>
+							</h2><!-- /.title-main -->
+							<p class="sub-title">shaping tomorrow with you</p>
+						</div><!-- /.section-title -->
+					</div><!-- /.col-lg-8 -->
+				</div><!-- /.row -->
+
+				<div class="row services-items-list gutters-30">
+					<div class="col-lg-4 col-md-6">
+						<a class="service-item" href="#">
+							<div class="service-icon">
+								<img src="assets/images/icon/services/RH.png" alt="Icon" />
+							</div>
+							<!-- /.service-icon -->
+							<h3 class="title">HR</h3>
+						</a>
+						<!-- /.service-item -->
+					</div>
+					<!-- /.col-lg-4 -->
+					<div class="col-lg-4 col-md-6">
+						<a class="service-item" href="#">
+							<div class="service-icon">
+								<img src="assets/images/icon/services/IT.png" alt="Icon" />
+							</div>
+							<!-- /.service-icon -->
+							<h3 class="title">Internal Systems</h3>
+						</a>
+						<!-- /.service-item -->
+					</div>
+					<!-- /.col-lg-4 -->
+					<div class="col-lg-4 col-md-6">
+						<a class="service-item" href="./qualidade.html">
+							<div class="service-icon">
+								<img src="assets/images/icon/services/qualidade.png" alt="Icon" />
+							</div>
+							<!-- /.service-icon -->
+							<h3 class="title">Qualidade</h3>
+						</a>
+						<!-- /.service-item -->
+					</div>
+					<!-- /.col-lg-4 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div>
+		<div id="" class="about-us-block pd-t-170">
+			<div class="container container-1200">
+				<div class="row align-items-center flex-column-reverse flex-lg-row mrb-55">
+					<div class="col-sm-6">
+						<img src="./assets/images/widget/HealthAndSafety.svg" class="img-fluid" alt="img">
+					</div>
+
+					<div class="col-sm-6">
+						<div class="features-alt">
+							<h3>O que a Fujitsu aspira ser: </h3>
+
+							<p class="text-muted">
+								A primeira prioridade do Grupo Fujitsu em todas as atividades comerciais é proteger a
+								saúde e a segurança de nossos funcionários, tanto mental quanto fisicamente,
+								proporcionando um ambiente de trabalho seguro e saudável adaptado às diferentes culturas
+								em que operamos.</p>
+
+							<div class="col-lg-12">
+								<a class="service-item" href="../App/healthandSafety.html">
+									<div class="service-icon">
+										<img src="assets/images/icon/services/health.png" alt="Icon" />
+									</div>
+									<!-- /.service-icon -->
+									<h3 class="title">Health & Safety</h3>
+								</a>
+								<!-- /.service-item -->
+							</div>
+						</div>
+					</div>
+
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div>
+		<!--~~./ end "Departamentos" ~~-->
+
+
+		<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Start About Us Block
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+		<div id="sobre" class="about-us-block pd-t-170">
+			<div class="container container-1200">
+				<div class="row justify-content-center">
+					<div class="col-lg-8">
+						<div class="section-title text-center">
+							<h2 class="title-main">
+								04 <span>Sobre Nós</span>
+							</h2><!-- /.title-main -->
+							<p class="sub-title">shaping tomorrow with you</p>
+						</div><!-- /.section-title -->
+					</div><!-- /.col-lg-8 -->
+				</div><!-- /.row -->
+
+				<div class="row align-items-center flex-column-reverse flex-lg-row mrb-55">
+					<div class="col-lg-6">
+						<div class="about-content">
+							<h3 class="heading">Sobre nós</h3>
+							<p class="description">Bem-vindo à Fujitsu Portugal</p>
+							<p>A Fujitsu é a companhia líder japonesa de tecnologias de informação e comunicação (TIC)
+								disponibilizando um leque completo de produtos tecnológicos, soluções e serviços. Cerca
+								de 130.000 colaboradores da Fujitsu prestam suporte a clientes em mais de 180 países.
+								Utilizamos a nossa experiência e o poder das TIC para moldar o futuro da sociedade com
+								os nossos clientes.</p>
+							<p>A Fujitsu Limited (TSE: 6702) apresentou receitas consolidadas de 3,9 biliões de ienes
+								(35 mil milhões de dólares) para o ano fiscal que terminou a 31 de Março de 2020.</p>
+							<div class="author-sign">
+								<a href="./sobreNos.html" class="btn btn-primary" style="border-radius: 5px;"
+									data-aos="fade-right" data-aos-duration="500">Saiba
+									mais</a>
+							</div>
+						</div><!-- /.about-content -->
+					</div><!-- /.col-lg-6 -->
+					<div class="col-lg-6">
+						<div class="mock-up-thumb">
+							<img src="assets/images/about/about.png" alt="About Mock" />
+						</div><!-- /.mock-up-block -->
+					</div><!-- /.col-lg-6 -->
+				</div><!-- /.row -->
+
+				<div class="row">
+					<div class="col-md-6 col-lg-6">
+						<div class="fanfact-promo-numbers">
+							<div class="promo-number">
+								<div class="odometer" data-odometer-final="2100">0</div><!-- /.odometer -->
+								<h4 class="promo-title">colaboradores</h4><!-- /.promo-title -->
+							</div><!-- /.promo-number -->
+							<div class="promo-number">
+								<div class="odometer" data-odometer-final="130000">0</div><!-- /.odometer -->
+								<h4 class="promo-title">no mundo</h4><!-- /.promo-title -->
+							</div><!-- /.promo-number -->
+							<div class="promo-number">
+								<div class="odometer" data-odometer-final="180">0</div><!-- /.odometer -->
+								<h4 class="promo-title">países</h4><!-- /.promo-title -->
+							</div><!-- /.promo-number -->
+							<div class="promo-number">
+								<div class="odometer" data-odometer-final="40">0</div><!-- /.odometer -->
+								<h4 class="promo-title">Linguas</h4><!-- /.promo-title -->
+							</div><!-- /.promo-number -->
+						</div><!-- /.fanfact-promo-numbers -->
+					</div><!-- /.col-lg-6 -->
+
+					<div class="col-md-6 col-lg-6">
+						<div class="skill-with-social">
+
+							<h3 class="heading">shaping tomorrow with you</h3>
+							<p>Para realizar o propósito da Fujitsu de “tornar o mundo mais sustentável, construindo
+								confiança na sociedade por meio da inovação”, aumentando a capacidade de simpatizar com
+								uma sociedade global e continuaremos a fazer mudanças mais flexíveis e a criar valor.
+							</p>
+							<p>Hoje, respondemos ao mundo digital moderno co-criando com nossos parceiros e clientes e
+								gerando novos valores a partir de tecnologias digitais de ponta que não apenas
+								transformam a maneira como trabalhamos e vivemos, mas também contribuem para resolver os
+								desafios sociais globais.</p>
+
+							<div class="social-status">
+								<h3 class="heading">Siga a Fujitsu</h3>
+								<div class="social-profile-list">
+									<a href="#"><i class="fab fa-instagram" data-aos="fade-right"
+											data-aos-duration="500" data-aos-delay="100"></i></a>
+									<a href="#"><i class="fab fa-facebook-f" data-aos="fade-right"
+											data-aos-duration="500" data-aos-delay="200"></i></a>
+									<a href="#"><i class="fab fa-twitter" data-aos="fade-right" data-aos-duration="300"
+											data-aos-delay="500"></i></a>
+									<a href="#"><i class="fab fa-linkedin-in" data-aos="fade-right"
+											data-aos-duration="500" data-aos-delay="400"></i></a>
+								</div>
+							</div><!-- /.social-status -->
+						</div>
+					</div>
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div>
+		<!--~~./ end about us block ~~-->
+
+		<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Start Portfolio Block
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+		<div id="videos" class="portfolio-block pd-t-170">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-8">
+						<div class="section-title text-center">
+							<h2 class="title-main">
+								05 <span>Videos</span>
+							</h2><!-- /.title-main -->
+							<p class="sub-title">shaping tomorrow with you</p>
+						</div><!-- /.section-title -->
+					</div><!-- /.col-lg-8 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+			<div class="container custom-container-1650">
+				<div class="row">
+					<div class="col-12 text-center">
+
+						<ul class="portfolio-filter">
+							<li>
+								<a href="#" data-filter="*" class="filter active">Todos</a>
+							</li>
+							<li>
+								<a href="#" data-filter=".blockchain" class="filter">blockchain</a>
+							</li>
+							<li>
+								<a href="#" data-filter=".iot" class="filter">IoT</a>
+							</li>
+							<li>
+								<a href="#" data-filter=".bigdata" class="filter">Big Data</a>
+							</li>
+							<li>
+								<a href="#" data-filter=".fts" class="filter">Fujitsu</a>
+							</li>
+						</ul>
+					</div><!-- /.col-12 -->
+				</div><!-- /.row -->
+				<div class="row portfolio-grid gutters-40">
+					<div class="item col-lg-4 col-xl-3 col-md-6 blockchain">
+						<a class="portfolio-item" href="https://www.youtube.com/watch?v=naD5PowXTPM" target="_blank">
+							<figure class="portfolio-thumb">
+								<img src="assets/images/portfolio/1.png" alt="portfolio Item">
+							</figure><!-- /.portfolio-thumb -->
+							<p
+								style="height: 100px; width: 100%; padding: 15px; background-color: whitesmoke; text-align: left; justify-content: center;border-bottom: 6px solid red">
+								Blockchain Distributed Ledger Technology Trust and Trace</p>
+							<div class="overlay-wrapper">
+								<div class="overlay"></div><!-- /.overlay -->
+								<div class="portfolio-info">
+									<h3 class="heading">Ver video</h3>
+								</div><!-- /.portfolio-info -->
+							</div><!-- /.overlay-wrapper -->
+						</a><!-- /.portfolio-item -->
+					</div><!-- /.col-xl-3 -->
+
+
+					<div class="item col-lg-4 col-xl-3 col-md-6 blockchain">
+						<a class="portfolio-item" href="https://www.youtube.com/watch?v=dqiaZv5Pals">
+							<figure class="portfolio-thumb">
+								<img src="assets/images/portfolio/2.png" alt="portfolio Item">
+							</figure><!-- /.portfolio-thumb -->
+							<p
+								style="height: 100px; width: 100%; padding: 15px; background-color: whitesmoke; text-align: left; justify-content: center;border-bottom: 6px solid red">
+								Enterprise Blockchain is building momentum</p>
+							<div class="overlay-wrapper">
+								<div class="overlay"></div><!-- /.overlay -->
+								<div class="portfolio-info">
+									<h3 class="heading">Ver video</h3>
+								</div><!-- /.portfolio-info -->
+							</div><!-- /.overlay-wrapper -->
+						</a><!-- /.portfolio-item -->
+					</div><!-- /.col-xl-3 -->
+
+					<div class="item col-lg-4 col-xl-3 col-md-6 iot">
+						<a class="portfolio-item" href="https://www.youtube.com/watch?v=dqiaZv5Pals">
+							<figure class="portfolio-thumb">
+								<img src="assets/images/portfolio/3.png" alt="portfolio Item">
+							</figure><!-- /.portfolio-thumb -->
+							<p
+								style="height: 100px; width: 100%; padding: 15px; background-color: whitesmoke; text-align: left; justify-content: center;border-bottom: 6px solid red">
+								IoT and connected technologies for a hyperconnected world</p>
+							<div class="overlay-wrapper">
+								<div class="overlay"></div><!-- /.overlay -->
+								<div class="portfolio-info">
+									<h3 class="heading">Ver video</h3>
+								</div><!-- /.portfolio-info -->
+							</div><!-- /.overlay-wrapper -->
+						</a><!-- /.portfolio-item -->
+					</div><!-- /.col-xl-3 -->
+
+					<div class="item col-lg-4 col-xl-3 col-md-6 iot">
+						<a class="portfolio-item" href="https://www.youtube.com/watch?v=dqiaZv5Pals">
+							<figure class="portfolio-thumb">
+								<img src="assets/images/portfolio/4.png" alt="portfolio Item">
+							</figure><!-- /.portfolio-thumb -->
+							<p
+								style="height: 100px; width: 100%; padding: 15px; background-color: whitesmoke; text-align: left; justify-content: center;border-bottom: 6px solid red">
+								How to become a hyperconnected business with IoT</p>
+							<div class="overlay-wrapper">
+								<div class="overlay"></div><!-- /.overlay -->
+								<div class="portfolio-info">
+									<h3 class="heading">Ver video</h3>
+								</div><!-- /.portfolio-info -->
+							</div><!-- /.overlay-wrapper -->
+						</a><!-- /.portfolio-item -->
+					</div><!-- /.col-xl-3 -->
+
+					<div class="item col-lg-4 col-xl-3 col-md-6 print iot">
+						<a class="portfolio-item" href="https://www.youtube.com/watch?v=dqiaZv5Pals">
+							<figure class="portfolio-thumb">
+								<img src="assets/images/portfolio/5.png" alt="portfolio Item">
+							</figure><!-- /.portfolio-thumb -->
+							<p
+								style="height: 100px; width: 100%; padding: 15px; background-color: whitesmoke; text-align: left; justify-content: center;border-bottom: 6px solid red">
+								AI Business Solutions powered by Fujitsu Human Centric AI
+								Zinrai</p>
+							<div class="overlay-wrapper">
+								<div class="overlay"></div><!-- /.overlay -->
+								<div class="portfolio-info">
+									<h3 class="heading">Ver video</h3>
+								</div><!-- /.portfolio-info -->
+							</div><!-- /.overlay-wrapper -->
+						</a><!-- /.portfolio-item -->
+					</div><!-- /.col-xl-3 -->
+
+					<div class="item col-lg-4 col-xl-3 col-md-6 iot">
+						<a class="portfolio-item" href="https://www.youtube.com/watch?v=dqiaZv5Pals">
+							<figure class="portfolio-thumb">
+								<img src="assets/images/portfolio/6.png" alt="portfolio Item">
+							</figure><!-- /.portfolio-thumb -->
+							<p
+								style="height: 100px; width: 100%; padding: 15px; background-color: whitesmoke; text-align: left; justify-content: center;border-bottom: 6px solid red">
+								GlobeRanger: Transferring knowledge from Manufacturing to
+								Construction</p>
+							<div class="overlay-wrapper">
+								<div class="overlay"></div><!-- /.overlay -->
+								<div class="portfolio-info">
+									<h3 class="heading">Ver video</h3>
+								</div><!-- /.portfolio-info -->
+							</div><!-- /.overlay-wrapper -->
+						</a><!-- /.portfolio-item -->
+					</div><!-- /.col-xl-3 -->
+
+					<div class="item col-lg-4 col-xl-3 col-md-6 bigdata">
+						<a class="portfolio-item" href="https://www.youtube.com/watch?v=dqiaZv5Pals">
+							<figure class="portfolio-thumb">
+								<img src="assets/images/portfolio/7.png" alt="portfolio Item">
+							</figure><!-- /.portfolio-thumb -->
+							<p
+								style="height: 100px; width: 100%; padding: 15px; background-color: whitesmoke; text-align: left; justify-content: center;border-bottom: 6px solid red">
+								Data Analytics: Getting closer to your customer</p>
+							<div class="overlay-wrapper">
+								<div class="overlay"></div><!-- /.overlay -->
+								<div class="portfolio-info">
+									<h3 class="heading">Ver video</h3>
+								</div><!-- /.portfolio-info -->
+							</div><!-- /.overlay-wrapper -->
+						</a><!-- /.portfolio-item -->
+					</div><!-- /.col-xl-3 -->
+
+					<div class="item col-lg-4 col-xl-3 col-md-6 bigdata">
+						<a class="portfolio-item" href="https://www.youtube.com/watch?v=dqiaZv5Pals">
+							<figure class="portfolio-thumb">
+								<img src="assets/images/portfolio/8.png" alt="portfolio Item">
+							</figure><!-- /.portfolio-thumb -->
+							<p
+								style="height: 100px; width: 100%; padding: 15px; background-color: whitesmoke; text-align: left; justify-content: center;border-bottom: 6px solid red">
+								Fujitsu Digital Annealer: What It Does and Why It Is Cool</p>
+							<div class="overlay-wrapper">
+								<div class="overlay"></div><!-- /.overlay -->
+								<div class="portfolio-info">
+									<h3 class="heading">Ver video</h3>
+								</div><!-- /.portfolio-info -->
+							</div><!-- /.overlay-wrapper -->
+						</a><!-- /.portfolio-item -->
+					</div><!-- /.col-xl-3 -->
+
+					<div class="item col-lg-4 col-xl-3 col-md-6 fts">
+						<a class="portfolio-item" href="https://www.youtube.com/watch?v=dqiaZv5Pals">
+							<figure class="portfolio-thumb">
+								<img src="assets/images/portfolio/9.png" alt="portfolio Item">
+							</figure><!-- /.portfolio-thumb -->
+							<p
+								style="height: 100px; width: 100%; padding: 15px; background-color: whitesmoke; text-align: left; justify-content: center;border-bottom: 6px solid red">
+								FUJITSU Portugal GDC</p>
+							<div class="overlay-wrapper">
+								<div class="overlay"></div><!-- /.overlay -->
+								<div class="portfolio-info">
+									<h3 class="heading">Ver video</h3>
+								</div><!-- /.portfolio-info -->
+							</div><!-- /.overlay-wrapper -->
+						</a><!-- /.portfolio-item -->
+					</div><!-- /.col-xl-3 -->
+
+					<div class="item col-lg-4 col-xl-3 col-md-6 fts">
+						<a class="portfolio-item" href="https://www.youtube.com/watch?v=dqiaZv5Pals">
+							<figure class="portfolio-thumb">
+								<img src="assets/images/portfolio/10.png" alt="portfolio Item">
+							</figure><!-- /.portfolio-thumb -->
+							<p
+								style="height: 100px; width: 100%; padding: 15px; background-color: whitesmoke; text-align: left; justify-content: center;border-bottom: 6px solid red">
+								FUJITSU Portugal</p>
+							<div class="overlay-wrapper">
+								<div class="overlay"></div><!-- /.overlay -->
+								<div class="portfolio-info">
+									<h3 class="heading">Ver video</h3>
+								</div><!-- /.portfolio-info -->
+							</div><!-- /.overlay-wrapper -->
+						</a><!-- /.portfolio-item -->
+					</div><!-- /.col-xl-3 -->
+
+					<div class="item col-lg-4 col-xl-3 col-md-6 fts">
+						<a class="portfolio-item" href="https://www.youtube.com/watch?v=dqiaZv5Pals">
+							<figure class="portfolio-thumb">
+								<img src="assets/images/portfolio/11.png" alt="portfolio Item">
+							</figure><!-- /.portfolio-thumb -->
+							<p
+								style="height: 100px; width: 100%; padding: 15px; background-color: whitesmoke; text-align: left; justify-content: center;border-bottom: 6px solid red">
+								Fujitsu Global Delivery Centers</p>
+							<div class="overlay-wrapper">
+								<div class="overlay"></div><!-- /.overlay -->
+								<div class="portfolio-info">
+									<h3 class="heading">Ver video</h3>
+								</div><!-- /.portfolio-info -->
+							</div><!-- /.overlay-wrapper -->
+						</a><!-- /.portfolio-item -->
+					</div><!-- /.col-xl-3 -->
+
+					<div class="item col-lg-4 col-xl-3 col-md-6 fts">
+						<a class="portfolio-item" href="https://www.youtube.com/watch?v=dqiaZv5Pals">
+							<figure class="portfolio-thumb">
+								<img src="assets/images/portfolio/12.png" alt="portfolio Item">
+							</figure><!-- /.portfolio-thumb -->
+							<p
+								style="height: 100px; width: 100%; padding: 15px; background-color: whitesmoke; text-align: left; justify-content: center;border-bottom: 6px solid red">
+								Fujitsu Gymnastics</p>
+							<div class="overlay-wrapper">
+								<div class="overlay"></div><!-- /.overlay -->
+								<div class="portfolio-info">
+									<h3 class="heading">Ver video</h3>
+								</div><!-- /.portfolio-info -->
+							</div><!-- /.overlay-wrapper -->
+						</a><!-- /.portfolio-item -->
+					</div><!-- /.col-xl-3 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div>
+		<!--~~./ end portfolio block ~~-->
+
+
+
+		<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Start Testimonial Block
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+		<div id="faq" class="testimonial-block pd-t-170">
+			<div class="container container-1200">
+				<div class="row justify-content-center">
+					<div class="col-lg-8">
+						<div class="section-title text-center">
+							<h2 class="title-main">
+								06 <span>Quick FAQ#</span>
+							</h2><!-- /.title-main -->
+							<p class="sub-title">shaping tomorrow with you</p>
+						</div><!-- /.section-title -->
+					</div><!-- /.col-lg-8 -->
+				</div><!-- /.row -->
+
+				<div class="row justify-content-center">
+					<div class="col-lg-11">
+
+						<!-- Testimonial Slider -->
+						<div class="owl-carousel testimonial-slider carousel-nav-circle carousel-nav-center">
+
+							<div class="testimonial-item">
+								<div class="client-area">
+									<div class="client-thumb">
+										<img src="assets/images/testimonail/1.png" alt="Daniel Watson" />
+									</div><!-- /.client-thumb -->
+									<div class="client-info">
+										<h4 class="client-name">Reportar um incidente</h4>
+										<p class="client-designation">
+											<p><b>Onde ir : </b>Ask IT Portal (ServiceDesk)</p>
+											<p><b>Quick Link : </b><a
+													href="https://fujitsu.service-now.com/ask_it/">Tab: New Call /
+													Incident</a>
+											</p>
+											<p><b>Contacto Interno : </b>Ext 7799</p>
+											<p><b>De qualquer telefone : </b>004 989 356 480 888</p>
+										</p>
+									</div><!-- /.client-info -->
+								</div>
+
+							</div><!-- /.testimonial-item -->
+							<div class="testimonial-item">
+								<div class="client-area">
+									<div class="client-thumb">
+										<img src="assets/images/testimonail/2.png" alt="Daniel Watson" />
+									</div><!-- /.client-thumb -->
+									<div class="client-info">
+										<h4 class="client-name">Necessita de alguma informação ?</h4>
+										<p class="client-designation">
+											<p><b>Onde ir : </b>Ask IT Portal (ServiceDesk)</p>
+											<p><b>Quick Link : </b><a
+													href="https://fujitsu.service-now.com/ask_it/">Tab: New Call /
+													Incident</a>
+											</p>
+											<p><b>Contacto Interno : </b>Ext 7799</p>
+											<p><b>De qualquer telefone : </b>004 989 356 480 888</p>
+										</p>
+									</div><!-- /.client-info -->
+								</div>
+							</div><!-- /.testimonial-item -->
+							<div class="testimonial-item">
+								<div class="client-area">
+									<div class="client-thumb">
+										<img src="assets/images/testimonail/3.png" alt="Daniel Watson" />
+									</div><!-- /.client-thumb -->
+									<div class="client-info">
+										<h4 class="client-name">Solicitar equipamento de IT</h4>
+										<p class="client-designation">
+											<p><b>Onde ir : </b>POR IS Portal</p>
+											<p><b>Quick Link : </b><a
+													href="http://intranet.ts.fujitsu.com/teams/c/pt/is/SitePages/isservicerequests.aspx">Tab:
+													Equipment Requests</a>
+											</p>
+											<p><b>Contacto Interno : </b>N/A</p>
+											<p><b>De qualquer telefone : </b>N/A</p>
+										</p>
+									</div><!-- /.client-info -->
+								</div>
+							</div><!-- /.testimonial-item -->
+							<div class="testimonial-item">
+								<div class="client-area">
+									<div class="client-thumb">
+										<img src="assets/images/testimonail/4.png" alt="Daniel Watson" />
+									</div><!-- /.client-thumb -->
+									<div class="client-info">
+										<h4 class="client-name">Solicitar um Smartphone ou Hotspot</h4>
+										<p class="client-designation">
+											<p><b>Onde ir : </b>POR IS Portal</p>
+											<p><b>Quick Link : </b><a
+													href="http://intranet.ts.fujitsu.com/teams/c/pt/is/SitePages/isservicerequests.aspx">Tab:
+													Equipment Requests</a>
+											</p>
+											<p><b>Contacto Interno : </b>N/A</p>
+											<p><b>De qualquer telefone : </b>N/A</p>
+										</p>
+									</div><!-- /.client-info -->
+								</div>
+							</div><!-- /.testimonial-item -->
+						</div>
+					</div>
+				</div>
+				<!-- /.row -->
+			</div>
+			<!-- /.container -->
+		</div>
+		<!--~~./ end testimonial block ~~-->
+
+		<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Start Latest News Block
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+		<div id="noticias" class="latest-news-block pd-t-170 pd-b-170">
+			<div class="container container-1200 ml-b-30">
+				<div class="row justify-content-center">
+					<div class="col-lg-8">
+						<div class="section-title text-center">
+							<h2 class="title-main">
+								07 <span>Notícias</span>
+							</h2><!-- /.title-main -->
+							<p class="sub-title">shaping tomorrow with you</p>
+						</div><!-- /.section-title -->
+					</div><!-- /.col-lg-8 -->
+				</div><!-- /.row -->
+
+				<div class="row latest-news-list gutters-30">
+					<div class="col-lg-4 col-md-6">
+						<article class="post post-grid">
+							<figure class="post-thumb">
+								<a href="https://www.fujitsu.com/global/about/resources/news/press-releases/">
+									<img src="assets/images/blog/grid/1.jpg" alt="Blog Image" />
+								</a>
+							</figure><!-- /.post-thumb -->
+							<div class="post-details">
+								<div class="entry-meta">
+									<div class="entry-date">
+										<p>
+											<script>
+												document.write(new Date().toLocaleDateString());
+											</script>
+										</p>
+									</div>
+									<!--./ entry-date -->
+									<div class="entry-category">
+										<a class="cat"
+											href="https://www.fujitsu.com/global/about/resources/news/press-releases/">Fujitsu
+											RSS Feeds</a>
+									</div>
+									<!--./ entry-category -->
+								</div><!-- /.entry-meta -->
+								<h2 class="entry-title">
+									<a href="https://www.fujitsu.com/global/about/resources/news/press-releases/"
+										target="_blank">Fujitsu
+										Press Releases</a>
+								</h2><!-- /.entry-title -->
+							</div><!-- /.post-details -->
+						</article> <!-- /.post -->
+					</div>
+
+					<div class="col-lg-4 col-md-6">
+						<article class="post post-grid">
+							<figure class="post-thumb">
+								<a href="https://digitalworkplace.global.fujitsu.com/">
+									<img src="assets/images/blog/grid/2.jpg" alt="Blog Image" />
+								</a>
+							</figure><!-- /.post-thumb -->
+							<div class="post-details">
+								<div class="entry-meta">
+									<div class="entry-date">
+										<p>
+											<script>
+												document.write(new Date().toLocaleDateString());
+											</script>
+										</p>
+									</div>
+									<!--./ entry-date -->
+									<div class="entry-category">
+										<a class="cat" href="https://digitalworkplace.global.fujitsu.com/">Fujitsu RSS
+											Feeds</a>
+									</div>
+									<!--./ entry-category -->
+								</div><!-- /.entry-meta -->
+								<h2 class="entry-title">
+									<a href="https://digitalworkplace.global.fujitsu.com/">Fujitsu Digital Workplace</a>
+								</h2><!-- /.entry-title -->
+							</div><!-- /.post-details -->
+						</article> <!-- /.post -->
+					</div>
+
+					<div class="col-lg-4 col-md-6">
+						<article class="post post-grid">
+							<figure class="post-thumb">
+								<a href="https://www.fujitsu.com/emeia/about/resources/news/newsroom.html">
+									<img src="assets/images/blog/grid/3.jpg" alt="Blog Image" />
+								</a>
+							</figure><!-- /.post-thumb -->
+							<div class="post-details">
+								<div class="entry-meta">
+									<div class="entry-date">
+										<p>
+											<script>
+												document.write(new Date().toLocaleDateString());
+											</script>
+										</p>
+									</div>
+									<!--./ entry-date -->
+									<div class="entry-category">
+										<a class="cat"
+											href="https://www.fujitsu.com/emeia/about/resources/news/newsroom.html">Fujitsu
+											RSS Feeds</a>
+									</div>
+									<!--./ entry-category -->
+								</div><!-- /.entry-meta -->
+								<h2 class="entry-title">
+									<a href="https://www.fujitsu.com/emeia/about/resources/news/newsroom.html">International
+										Newsroom</a>
+								</h2><!-- /.entry-title -->
+							</div><!-- /.post-details -->
+						</article> <!-- /.post -->
+					</div>
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div>
+		<!--~~./ end latest news block ~~-->
+
+
+		<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Start Site Footer
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+		<footer id="contact-block" class="site-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="contact-block">
+							<div class="section-title">
+								<h2 class="title-main">
+									08 <span>Contactos</span>
+								</h2><!-- /.title-main -->
+								<p class="sub-title">shaping tomorrow with you</p>
+							</div><!-- /.section-title -->
+							<div class="contact-form-area">
+								<form id="contact_form" class="contact-form" action="#">
+									<div class="row gx-4">
+										<div class="col-lg-6 col-md-6">
+											<div class="form-group">
+												<input id="name" name="name" type="text" class="form-control"
+													placeholder="Nome*">
+											</div>
+										</div>
+										<!--./ col-lg-6-->
+										<div class="col-lg-6 col-md-6">
+											<div class="form-group">
+												<input class="form-control" id="email" name="email" type="email"
+													placeholder="Email*">
+											</div>
+										</div>
+										<!--./ col-lg-6 -->
+										<div class="col-12">
+											<div class="form-group">
+												<textarea id="message" name="message" class="form-control" rows="4"
+													placeholder="Podemos ajudar?"></textarea>
+											</div>
+										</div><!-- /.col-12 -->
+										<div class="col-12">
+											<button type="submit" class="btn btn-primary" style="border-radius: 5px;"
+												data-aos="fade-right" data-aos-duration="500"
+												data-aos-delay="200">enviar</button>
+										</div>
+										<!--./ col-lg-6 -->
+									</div><!-- /.row -->
+								</form><!-- /.contact-form -->
+							</div><!-- /.contact-form-area -->
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="footer-content-wrapper">
+							<div class="footer-widget-area">
+								<div class="row">
+									<!--~~~~~ Start Widget Links ~~~~~-->
+									<div class="col-lg-6 col-md-6">
+										<aside class="widget widget_links">
+											<h2 class="widget-title"><span>Quick Link</span></h2>
+											<div class="widget-content">
+												<ul>
+													<li><a href="https://www.fujitsu.com/pt/services/">Serviços</a></li>
+													<li><a href="https://www.fujitsu.com/pt/products/">Produtos</a></li>
+													<li><a href="https://www.fujitsu.com/pt/solutions/">Soluções</a>
+													</li>
+													<li><a href="https://www.fujitsu.com/pt/about/">Sobre a Fujitsu</a>
+													</li>
+												</ul>
+											</div>
+										</aside>
+									</div>
+									<!--~./ end links widget ~-->
+									<!--~~~~~ Start Widget Links ~~~~~-->
+									<div class="col-lg-6 col-md-6">
+										<aside class="widget widget_contact">
+											<div class="widget-content">
+												<div class="single-contact-info">
+													<div class="icon">
+														<i class="fas fa-envelope"></i>
+													</div>
+													<p><a
+															href="mailto:hugo.pinto@fujitsu.com">hugo.pinto@fujitsu.com</a>
+													</p>
+												</div><!-- /.single-contact-info -->
+												<div class="single-contact-info">
+													<div class="icon">
+														<i class="fas fa-phone-alt"></i>
+													</div>
+													<p>351 - 217 244 444</p>
+												</div><!-- /.single-contact-info -->
+											</div>
+										</aside>
+									</div>
+									<!--~./ end links widget ~-->
+								</div>
+							</div>
+							<!--~./ end footer widgets area ~-->
+							<div class="copyright-text text-center">
+								<p>Copyright @ <a href="#">Fujitsu </a> 2021</p>
+							</div>
+							<!--~./ end copyright text ~-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--~./ end site footer ~-->
+	</div>
+	<!--~~./ end site content ~~-->
+
+	<!-- All The JS Files
+			================================================== -->
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/plugins.js"></script>
+	<script src="assets/js/imagesloaded.pkgd.min.js"></script>
+	<script src="assets/js/simple-scrollbar.min.js"></script>
+	<script src="assets/js/background-parallax.js"></script>
+	<script src="assets/js/theia-sticky-sidebar.min.js"></script>
+	<script src="assets/js/ResizeSensor.min.js"></script>
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<script src="assets/js/isotope.pkgd.min.js"></script>
+	<script src="assets/js/packery-mode.pkgd.min.js"></script>
+	<script src="assets/js/scrolla.jquery.min.js"></script>
+	<script src="assets/js/odometer.min.js"></script>
+	<script src="assets/js/isInViewport.jquery.js"></script>
+	<script src="assets/js/contact.js"></script>
+	<script src="assets/js/main.js"></script><!-- main-js -->
+
+	<!-- This script use for this page -->
+	<script src="assets/js/heandline.js"></script>
+
+	<!-- REQUEST FULL SCREEN MODE -->
+	<script>
+		function getFullscreenElement() {
+			return document.fullscreenElement ||
+				document.webkitfullscreenElement ||
+				document.mozfullscreenElement ||
+				document.msfullscreenElement;
+		}
+
+		function toggleFullscreen() {
+			if (getFullscreenElement()) {
+				document.exitFullscreen();
+			} else {
+				document.documentElement.requestFullscreen().catch(console.log);
+			}
+		}
+
+		document.addEventListener("dblclick", () => {
+			toggleFullscreen();
+		});
+
+		document.addEventListener("fullscreenchange", () => {
+			console.log("full Screen Changed !")
+		})
+	</script>
+
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App do Colaborador</title>
+
+    <!-- Favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/android-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-icon-144x144.png" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="../App/assets/css/login.css">
+    <link rel="stylesheet" href="../css/transition.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"></script>
+
+
+
+    <!-- App do Colaborador - FUJITSU SANS Custom Font
+	================================================== -->
+    <style>
+        @font-face {
+            src: url(./assets/localFonts/FujitsuSansMedium.ttf);
+            font-family: "FujitsuSansMedium";
+        }
+    </style>
+
+</head>
+
+<body id="particles-js">
+    <!--form area start-->
+    <div class="form">
+        <!--Login form start-->
+        <form class="login-form" action="" method="post">
+            <i class="fas fa-user-circle"></i>
+            <input class="user-input" type="text" name="" placeholder="Username" required>
+            <input class="user-input" type="password" name="" placeholder="Password" required>
+            <div class="options-01">
+                <label class="remember-me"> <input type="checkbox" name="">Remember me</label>
+                <a href="#">Forgot your password ?</a>
+            </div>
+            <input class="btn" type="submit" name="" value="LOGIN">
+            <div class="options-02">
+                <p>Not Registered ? <a href="#">Create an Account</a></p>
+            </div>
+        </form>
+        <!--Login form END-->
+        <!--Sign up form Start-->
+        <form class="signup-form" action="" method="post">
+            <i class="fas fa-user-plus"></i>
+            <input class="user-input" type="text" name="" placeholder="Username" required>
+            <input class="user-input" type="email" name="" placeholder="Email Adress" required>
+            <input class="user-input" type="password" name="" placeholder="Passsword" required>
+            <input class="btn" type="submit" name="" placeholder="SIGN UP">
+            <div class="options-02">
+                <p>Already Registered ? <a href="#">Sign in</a></p>
+            </div>
+        </form>
+        <!--Sign up form END-->
+    </div>
+    <!--form area END-->
+
+    <script type="text/javascript">
+        $('.options-02 a').click(function () {
+            $('form').animate({
+                height: "toggle",
+                opacity: "toggle"
+            }, "slow");
+        });
+    </script>
+
+</body>
+
+</html>

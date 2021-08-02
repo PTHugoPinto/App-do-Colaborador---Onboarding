@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Basic Page Needs
+    ================================================== -->
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+	<!-- Specific Meta
+    ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta name="description" content="Intimate is a One Page Personal & Agency Portfolio Template." />
+	<meta name="keywords"
+		content="HTML5, Template, Design, agency, blog, business, clean, creative, marketing, modern, multipurpose, portfolio, seo, startup, studio, trending" />
+
+	<!-- Titles
+    ================================================== -->
+	<title>App do Colaborador</title>
+
+	<!-- Favicons
+    ================================================== -->
+	<link rel="shortcut icon" href="assets/images/favicon.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/images/android-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-icon-144x144.png" />
+
+	<!-- Custom Font
+	================================================== -->
+	<link
+		href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+		rel="stylesheet">
+
+	<!-- Welcome App - FUJITSU SANS Custom Font
+	================================================== -->
+	<style>
+		@font-face {
+			src: url(./assets/localFonts/FujitsuSansMedium.ttf);
+			font-family: "FujitsuSansMedium";
+		}
+	</style>
+
+
+
+
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		.section {
+			padding-top: 66px;
+			padding-bottom: 66px;
+		}
+
+		@media only screen and (max-width: 768px) {
+			.section {
+				padding-top: 50px;
+				padding-bottom: 50px;
+			}
+		}
+
+		/* Float four columns side by side */
+		.column {
+			float: left;
+			width: 20%;
+			padding: 0 10px;
+		}
+
+		/* Remove extra left and right margins, due to padding */
+		.row-2 {
+			margin: 0 -5px;
+		}
+
+		/* Clear floats after the columns */
+		.row-2:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+
+		/* Responsive columns */
+		@media screen and (max-width: 600px) {
+			.column {
+				width: 100%;
+				display: block;
+				margin-bottom: 20px;
+			}
+		}
+
+		/* Style the counter cards */
+		.card-2 {
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+			padding: 16px;
+			text-align: center;
+			background-color: #f1f1f1;
+		}
+	</style>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+	<!-- CSS
+    ================================================== -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+	<link rel="stylesheet" href="assets/css/simple-scrollbar.css" />
+	<link rel="stylesheet" href="assets/css/odometer-theme-default.css" />
+	<link rel="stylesheet" href="assets/css/fontawesome.all.min.css" />
+	<!-- This style use for this page -->
+	<link rel="stylesheet" href="assets/css/jquery.animatedheadline.css" />
+
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<link rel="stylesheet" href="../css/transition.css">
+	<link rel="stylesheet" href="./assets/css/mensagemRH.css" />
+	<link rel="stylesheet" href="./assets/css/scroll.css" />
+
+	<script src="assets/js/modernizr.min.js"></script>
+	<script src="assets/js/mensagemRH.js"></script>
+</head>
+
+
+<body data-bs-spy="scroll" data-bs-target=".navigation-area">
+	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		Start Site Header
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+	<header class="site-header default-header-style">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-12">
+					<div class="navigation-area">
+						<!-- Site Branding -->
+						<div class="site-branding">
+							<a href="index.html">
+								<img src="assets/images/logo/logo.png" alt="Site Logo" />
+							</a>
+						</div><!--  /.site-branding -->
+
+						<!-- Site Navigation -->
+						<div class="site-navigation">
+							<nav class="navigation">
+								<!-- Main Menu -->
+								<div class="menu-wrapper">
+									<div class="menu-content">
+										<ul class="mainmenu">
+											<li>
+												<a class="nav-link" href="./index-App.html">Home</a>
+											</li>
+											<li>
+												<a class="nav-link" href="./aMinhaArea.html">A Minha Àrea</a>
+											</li>
+											<li>
+												<a class="nav-link" href="./404.html">RH</a>
+											</li>
+											<li>
+												<a class="nav-link" href="./aMinhaArea_oMeuPc.html">O Meu PC</a>
+											</li>
+											<li>
+												<a class="nav-link" href="./contactosIT.html">Contactos IT</a>
+											</li>
+										</ul> <!-- /.menu-list -->
+									</div> <!-- /.hours-content-->
+								</div><!-- /.menu-wrapper -->
+							</nav>
+						</div><!-- /.site-navigation -->
+						<div class="hamburger-menus">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div><!-- /.hamburger-menus -->
+					</div><!-- /.navigation-area -->
+				</div><!-- /.col-12 -->
+			</div><!-- /.row -->
+		</div><!-- /.container-fluid -->
+		<div class="mobile-sidebar-menu sidebar-menu">
+			<div class="overlaybg"></div>
+		</div>
+	</header>
+	<!--~~./ end site header ~~-->
+
+	<!--********************************************************-->
+	<!--********************* SITE CONTENT *********************-->
+	<!--********************************************************-->
+	<div class="site-content">
+		<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+				Hero Block
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+		<div id="hero-block" class="hero-block personal-home bg-image bg-overlay bg-parallax"
+			style="background-image: url('assets/images/bg/hero-bg-10.jpg');">
+			<div id="particles-js"></div>
+			<div class="waves-effect bottom" style="background-image: url('assets/images/others/shape.png');">
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8">
+						<div class="hero-content-area">
+							<div class="hero-desc">
+								Bem-vindo <span></span> à FUJITSU
+							</div>
+							<h2 class="hero-title">
+								Sobre Nós
+							</h2><!-- /.hero-title -->
+							<ul class="hero-services">
+								<li>shaping tomorrow with you</li>
+							</ul>
+						</div><!-- /.hero-content-area -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /.hero-block -->
+
+
+		<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Start Latest News Block
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+		<div id="noticias" class="latest-news-block pd-t-170 pd-b-170">
+			<div class="container container-1200 ml-b-30">
+				<div class="row justify-content-center">
+					<div class="col-lg-8">
+						<div class="section-title text-center">
+							<h2 class="title-main">
+								01 <span>Sobre Nós</span>
+							</h2><!-- /.title-main -->
+							<p class="sub-title">shaping tomorrow with you</p>
+						</div><!-- /.section-title -->
+					</div><!-- /.col-lg-8 -->
+				</div><!-- /.row -->
+
+				<div class="row align-items-center flex-column-reverse flex-lg-row mrb-55">
+					<div class="col-lg-6">
+						<div class="about-content">
+							<h3 class="heading">Bem-vindo à Fujitsu Portugal</h3>
+							<p>A Fujitsu é a companhia líder japonesa de tecnologias de informação e
+								comunicação (TIC) disponibilizando um leque completo de produtos tecnológicos, soluções
+								e serviços. Cerca de 130.000 colaboradores da Fujitsu prestam suporte a clientes em mais
+								de 100 países. Utilizamos a nossa experiência e o poder das TIC para moldar o futuro da
+								sociedade com os nossos clientes. A Fujitsu Limited (TSE: 6702) apresentou receitas
+								consolidadas de 3,9 biliões de ienes (35 mil milhões de dólares) para o ano fiscal que
+								terminou a 31 de Março de 2020.</p>
+						</div><!-- /.about-content -->
+					</div><!-- /.col-lg-6 -->
+					<div class="col-lg-6">
+						<div class="mock-up-thumb">
+							<img src="assets/images/widget/sobre_nos_fujitsu.jpg" alt="About Mock" />
+						</div><!-- /.mock-up-block -->
+					</div><!-- /.col-lg-6 -->
+				</div><!-- /.row -->
+
+				<div class="container">
+					<div class="card-deck">
+						<div class="card" style="background-color: whitesmoke">
+							<div class="card-body text-center">
+								<h2 class="entry-title">
+									<a href="https://digitalworkplace.global.fujitsu.com/">Em Portugal</a>
+								</h2><!-- /.entry-title -->
+								<p class="card-text">Com sede em Lisboa e operações no Porto e Braga, é uma das maiores
+									empresas tecnológicas do mundo e está em Portugal há 43 anos, contando actualmente
+									com uma equipa de 2100 colaboradores.</p>
+							</div>
+						</div>
+						<div class="card" style="background-color: whitesmoke">
+							<div class="card-body text-center">
+								<h2 class="entry-title">
+									<a href="https://digitalworkplace.global.fujitsu.com/">Na Administração Pública</a>
+								</h2><!-- /.entry-title -->
+								<p class="card-text">Os principais clientes são a Administração Pública, onde assegura a
+									Gestão Documental em 80% dos Ministérios.
+								</p>
+							</div>
+						</div>
+						<div class="card" style="background-color: whitesmoke">
+							<div class="card-body text-center">
+								<h2 class="entry-title">
+									<a href="https://digitalworkplace.global.fujitsu.com/">No Retalho</a>
+								</h2><!-- /.entry-title -->
+								<p class="card-text">No Retalho, são líderes e os sistemas Fujitsu são responsáveis por
+									mais de 400 milhões de transações por ano, em mais de 1100 hipermercados e
+									supermercados.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div class="container">
+					<div class="card-deck">
+						<div class="card" style="background-color: whitesmoke;">
+							<div class="card-body text-center">
+								<h2 class="entry-title">
+									<a href="https://digitalworkplace.global.fujitsu.com/">Nas Seguradoras e
+										Utilities</a>
+								</h2><!-- /.entry-title -->
+								<p class="card-text">No sector Segurador e Utilities estão em mais de 420 balcões,
+									prestando suporte técnico a 16.000 utilizadores.</p>
+							</div>
+						</div>
+						<div class="card" style="background-color: whitesmoke">
+							<div class="card-body text-center">
+								<h2 class="entry-title">
+									<a href="https://digitalworkplace.global.fujitsu.com/">Nos Transportes e
+										Comunicações</a>
+								</h2><!-- /.entry-title -->
+								<p class="card-text">Nos transportes e nos sistemas de bilhética inteligente emitem mais
+									de 20 milhões de bilhetes por ano e prestam suporte a aplicações que apoiam mais de
+									300.000 horas de voo por ano.
+								</p>
+							</div>
+						</div>
+						<div class="card" style="background-color: whitesmoke">
+							<div class="card-body text-center">
+								<h2 class="entry-title">
+									<a href="https://digitalworkplace.global.fujitsu.com/">Centro de Competências</a>
+								</h2><!-- /.entry-title -->
+								<p class="card-text">A Fujitsu apostou em Portugal para localizar um dos seus Centros de
+									Competências globais que emprega actualmente em Lisboa e Braga cerca de 1900
+									colaboradores de 60 nacionalidades diferentes, oferecendo suporte a 750.000
+									utilizadores em mais de 150 países e dando suporte técnico especializado em mais de
+									22 idiomas distintos.</p>
+							</div>
+						</div>
+						<br>
+					</div>
+				</div>
+				<section class="section" id="features" style="margin-top: 50px;">
+					<div class="container">
+						<div class="row vertical-content">
+
+							<div class="col-sm-6">
+								<img src="./assets/images/widget/responsible_business.svg" class="img-fluid" alt="img">
+							</div>
+
+							<div class="col-sm-6">
+								<div class="features-alt">
+									<div class="feature-alt-icon mb-2">
+										<i class="pe-7s-bicycle"></i>
+									</div>
+									<h3>Responsible Business</h3>
+
+									<p class="text-muted">"À medida que o papel da TI se torna mais importante na vida
+										quotidiana, a Fujitsu continua empenhada em contribuir para um impacto positivo
+										na sociedade onde operamos. Este compromisso com negócios responsáveis,
+										incorporado no nosso programa Responsible Business, permanece no coração de
+										nossa estratégia de longo prazo."
+									</p>
+									<ul>
+										<p class="text-muted">Duncan Tait Corporate Executive Office and SEVP, Head of
+											EMEIA and Americas, Fujitsu</p>
+									</ul>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</section>
+
+				<section class="section" id="features" style="margin-bottom: -100px;">
+					<div class="container">
+						<div class="row vertical-content">
+
+							<div class="col-sm-6">
+								<div class="features-alt text-left">
+									<div class="feature-alt-icon mb-2">
+										<i class="pe-7s-light"></i>
+									</div>
+									<h3>A nossa abordagem e o Fujitsu Way</h3>
+
+									<p class="text-muted">Na Fujitsu globalmente reconhecemos que quando implementados
+										correctamente e genuinamente, os comportamentos responsáveis e éticos criam
+										valor compartilhado
+									</p>
+
+									<p class="text-muted">Desde a sua concepção o programa Responsible Business tem sido
+										uma parte substancial do Fujitsu WayOpen a new window (a nossa filosofia
+										corporativa) e desta forma fazendo parte do DNA da nossa empresa. A nossa
+										prática é genuína e de longa data, e tem sido reconhecida externamente em muitos
+										e índices e benchmarks. </p>
+									<p class="text-muted">A nossa abordagem e estrutura, descritas abaixo, alinham-se
+										plenamente com a política globalOpen a new window e visão do Presidente
+										TanakaOpen a new window. </p>
+								</div>
+							</div>
+
+							<div class="col-sm-6">
+								<img src="./assets/images/widget/On_the_way_re_swjt.svg" class="img-fluid" alt="img">
+							</div>
+
+						</div>
+					</div>
+				</section>
+
+			</div><!-- /.container -->
+		</div>
+		<!--~~./ end latest news block ~~-->
+
+
+		<section class="section" style="background-color: #F5F5F5;">
+			<div class="container">
+				<h3>Os Pilares da Responsabilidade Social</h3>
+				<p class="text-muted">As práticas responsáveis são conduzidas transversalmente em toda a empresa, desde
+					a protecção dos direitos de propriedade intelectual e aplicação da política de direitos humanos, ao
+					incentivo para todos os colaboradores se envolverem em projectos de acção comunitária. Os nossos
+					pilares de negócios responsáveis - Ambiente, Envolvimento e Desenvolvimento Comunitário, Diversidade
+					e Inclusão, Bem-Estar e Práticas Operacionais - são a base da nossa estratégia ao nível do país,
+					definindo temas comuns na Fujitsu. </p>
+
+
+				<br>
+				<div class="row-2">
+					<div class="column">
+						<div class="card-2"
+							style="background-image: linear-gradient(#2B7826, #56BC61); padding-bottom: 33px;">
+							<img src="./assets/images/testimonail/meio_ambiente.png" alt="" style="padding: 20px;">
+
+							<h3 style="color: white;">Meio Ambiente</h3>
+							<p style="color: white;">Estamos totalmente comprometidos em reduzir nosso impacto ambiental
+								em todo o escopo de
+								nossa operação e por meio dos serviços que prestamos aos clientes.</p>
+						</div>
+					</div>
+
+					<div class="column">
+						<div class="card-2"
+							style="background-image: linear-gradient(#1C61A6, #2278D9); padding-bottom: 33px;">
+							<img src="./assets/images/testimonail/comunidade.png" alt="" style="padding: 20px;">
+							<h3 style="color: white;">Envolvimento da Comunidade e seu Desenvolvimento</h3>
+							<p style="color: white;">O Nosso objetivo é abordar as questões que impactam a sociedade e
+								contribuir
+								positivamente para as comunidades locais.</p>
+						</div>
+					</div>
+
+					<div class="column">
+						<div class="card-2"
+							style="background-image: linear-gradient(#89530D, #E4A934); padding-bottom: 33px;">
+							<img src="./assets/images/testimonail/diversidade.png" alt="" style="padding: 20px;">
+							<h3 style="color: white;">Diversidade e Inclusão</h3>
+							<p style="color: white;">Estamos empenhados em desenvolver uma força de trabalho
+								diversificada e capacitada com os
+								mais diversos talentos
+								agrupa e promove oportunidades iguais para todos.</p>
+						</div>
+					</div>
+
+					<div class="column">
+						<div class="card-2"
+							style="background-image: linear-gradient(#413E87, #6B65BC); padding-bottom: 33px;">
+							<img src="./assets/images/testimonail/Bem_estar.png" alt="" style="padding: 20px;">
+							<h3 style="color: white;">Bem-estar</h3>
+							<p style="color: white;">Valorizamos a importância do nosso pessoal e nos esforçamos para
+								promover uma cultura de
+								saúde positiva, a fim de permitir que os indivíduos se sintam mais resilientes e lidem
+								com sucesso com sua vida pessoal e profissional.</p>
+
+						</div>
+					</div>
+
+					<div class="column">
+						<div class="card-2"
+							style="background-image: linear-gradient(#992C2E, #D14F57); padding-bottom: 36px;">
+							<img src="./assets/images/testimonail/operacoes.png" alt="" style="padding: 20px;">
+							<h3 style="color: white;">Práticas Operacionais</h3>
+							<p style="color: white;">Conduzimos nossos negócios de maneira aberta, honesta e ética e
+								empenhamo-nos ativamente
+								na implementação de práticas anticorrupção e cadeias de abastecimento socialmente
+								responsáveis.</p>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+
+		<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Start Latest News Block
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+		<section class="section" style="margin-top: 50px; margin-bottom: -100px;">
+			<div class="container container-1200 ml-b-30">
+				<div class="row align-items-center flex-column-reverse flex-lg-row mrb-55">
+					<div class="col-lg-6">
+						<div class="about-content">
+							<h3 class="heading">Histórias de clientes</h3>
+							<p>A Fujitsu trabalha com clientes em todas as indústrias um pouco por todo o mundo. Criamos
+								parcerias fortes com os nossos clientes e trabalhamos em conjunto para encontrar
+								soluções
+								inovadoras para os desafios do negócio. Conheça as nossas histórias e veja como
+								co-criamos
+								soluções que aproveitam as oportunidades do mundo digital com os nossos clientes.</p>
+
+							<div class="col-lg-12">
+								<a class="service-item" href="https://www.fujitsu.com/pt/about/local/casestudies/"
+									target="_blank">
+									<div class="service-icon">
+										<img src="assets/images/icon/services/oMeuPc.png" alt="Icon" />
+									</div>
+									<!-- /.service-icon -->
+									<h3 class="title">Saiba mais aqui...</h3>
+								</a>
+								<!-- /.service-item -->
+							</div>
+						</div><!-- /.about-content -->
+					</div><!-- /.col-lg-6 -->
+					<div class="col-lg-6">
+						<div class="mock-up-thumb">
+							<img src="assets/images/widget/historias_clientes.svg" alt="About Mock" />
+						</div><!-- /.mock-up-block -->
+					</div><!-- /.col-lg-6 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</section>
+
+
+		<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Start Testimonial Block
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+		<section class="section">
+			<div class="container container-1200">
+				<div class=" row justify-content-center">
+					<div class="col-lg-11">
+
+						<!-- Testimonial Slider -->
+						<div class="owl-carousel testimonial-slider carousel-nav-circle carousel-nav-center">
+
+							<div class="testimonial-item">
+								<div class="client-area">
+									<div class="client-thumb">
+										<img src="assets/images/testimonail/edp.png" alt="Daniel Watson" />
+									</div><!-- /.client-thumb -->
+									<div class="client-info">
+
+										<p class="client-designation">
+											<p>Uma parceria entre a EDP e a Fujitsu que permitiu uma transição suave de
+												quatro prestadores de serviço de helpdesk para o Service Desk da próxima
+												geração da Fujitsu. Garantindo sempre a continuidade de operações e de
+												processos de melhoria continua e qualidade baseados em metodologias
+												Lean.
+											</p>
+											<a href="https://www.fujitsu.com/pt/about/local/casestudies/edp/"
+												class="btn btn-primary" style="border-radius: 5px;"
+												target="_blank">Saiba
+												mais</a>
+									</div><!-- /.client-info -->
+								</div>
+
+							</div><!-- /.testimonial-item -->
+							<div class="testimonial-item">
+								<div class="client-area">
+									<div class="client-thumb">
+										<img src="assets/images/testimonail/NOS.png" alt="Daniel Watson" />
+									</div><!-- /.client-thumb -->
+									<div class="client-info">
+										<p class="client-designation">
+											<p>O modelo de co-criação da Fujitsu e da NOS permitiu a integração de
+												inovação
+												para melhorar a experiência do cliente em loja, numa primeira fase com
+												um
+												sistema de gestão de fila e mais recentemente com o lançamento de um
+												novo
+												conceito de loja, com soluções digitais de comunicação e experimentação
+											</p>
+											<a href="https://www.fujitsu.com/pt/about/local/casestudies/nos/"
+												class="btn btn-primary" style="border-radius: 5px;"
+												target="_blank">Saiba
+												mais</a>
+									</div><!-- /.client-info -->
+								</div>
+							</div><!-- /.testimonial-item -->
+							<div class="testimonial-item">
+								<div class="client-area">
+									<div class="client-thumb">
+										<img src="assets/images/testimonail/embraer.png" alt="Daniel Watson" />
+									</div><!-- /.client-thumb -->
+									<div class="client-info">
+										<p class="client-designation">
+											<p>Projecto de transformação digital do fabricante aeronáutico, que
+												conseguiu
+												automatizar e digitalizar o processo de aprovação de alterações do
+												processo
+												de fabrico, potenciando simultaneamente a partilha de informação comum a
+												todas as áreas da organização. Com a solução desenvolvida pela Fujitsu,
+												a
+												Embraer conseguiu diminuir o risco de retrabalho e baixar o custo da
+												não-qualidade, assegurando um aumento da competitividade e
+												produtividade.
+											</p>
+											<a href="https://www.fujitsu.com/pt/about/local/casestudies/embraer/"
+												class="btn btn-primary" style="border-radius: 5px;"
+												target="_blank">Saiba
+												mais</a>
+									</div><!-- /.client-info -->
+								</div>
+							</div><!-- /.testimonial-item -->
+							<div class="testimonial-item">
+								<div class="client-area">
+									<div class="client-thumb">
+										<img src="assets/images/testimonail/british_american_tabacco.png"
+											alt="Daniel Watson" />
+									</div><!-- /.client-thumb -->
+									<div class="client-info">
+										<p class="client-designation">
+											<p>Um projecto de co-criação entre Fujitsu e a British American Tobacco
+												(BAT)
+												com vista a melhorar a operação da companhia e contribuir para uma
+												rápida
+												implementação do Windows10 e Office365 em tempo record junto dos 36.000
+												colaboradores da BAT distribuídos geograficamente por 180 países.</p>
+											<a href="https://www.fujitsu.com/pt/about/local/casestudies/bat/"
+												class="btn btn-primary" style="border-radius: 5px;"
+												target="_blank">Saiba
+												mais</a>
+									</div><!-- /.client-info -->
+								</div>
+							</div><!-- /.testimonial-item -->
+						</div>
+					</div>
+				</div>
+				<!-- /.row -->
+			</div>
+			<!-- /.container -->
+
+		</section>
+
+
+		<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Start Site Footer
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+		<footer id="contact-block" class="site-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="contact-block">
+							<div class="section-title">
+								<h2 class="title-main">
+									02 <span>Contactos</span>
+								</h2><!-- /.title-main -->
+								<p class="sub-title">shaping tomorrow with you</p>
+							</div><!-- /.section-title -->
+							<div class="contact-form-area">
+								<form id="contact_form" class="contact-form" action="#">
+									<div class="row gx-4">
+										<div class="col-lg-6 col-md-6">
+											<div class="form-group">
+												<input id="name" name="name" type="text" class="form-control"
+													placeholder="Nome*">
+											</div>
+										</div>
+										<!--./ col-lg-6-->
+										<div class="col-lg-6 col-md-6">
+											<div class="form-group">
+												<input class="form-control" id="email" name="email" type="email"
+													placeholder="Email*">
+											</div>
+										</div>
+										<!--./ col-lg-6 -->
+										<div class="col-12">
+											<div class="form-group">
+												<textarea id="message" name="message" class="form-control" rows="4"
+													placeholder="Podemos ajudar?"></textarea>
+											</div>
+										</div><!-- /.col-12 -->
+										<div class="col-12">
+											<button type="submit" class="btn btn-primary" style="border-radius: 5px;"
+												data-aos="fade-right" data-aos-duration="500"
+												data-aos-delay="200">enviar</button>
+										</div>
+										<!--./ col-lg-6 -->
+									</div><!-- /.row -->
+								</form><!-- /.contact-form -->
+							</div><!-- /.contact-form-area -->
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="footer-content-wrapper">
+							<div class="footer-widget-area">
+								<div class="row">
+									<!--~~~~~ Start Widget Links ~~~~~-->
+									<div class="col-lg-6 col-md-6">
+										<aside class="widget widget_links">
+											<h2 class="widget-title"><span>Quick Link</span></h2>
+											<div class="widget-content">
+												<ul>
+													<li><a href="https://www.fujitsu.com/pt/services/">Serviços</a></li>
+													<li><a href="https://www.fujitsu.com/pt/products/">Produtos</a></li>
+													<li><a href="https://www.fujitsu.com/pt/solutions/">Soluções</a>
+													</li>
+													<li><a href="https://www.fujitsu.com/pt/about/">Sobre a Fujitsu</a>
+													</li>
+												</ul>
+											</div>
+										</aside>
+									</div>
+									<!--~./ end links widget ~-->
+									<!--~~~~~ Start Widget Links ~~~~~-->
+									<div class="col-lg-6 col-md-6">
+										<aside class="widget widget_contact">
+											<div class="widget-content">
+												<div class="single-contact-info">
+													<div class="icon">
+														<i class="fas fa-envelope"></i>
+													</div>
+													<p><a
+															href="mailto:hugo.pinto@fujitsu.com">hugo.pinto@fujitsu.com</a>
+													</p>
+												</div><!-- /.single-contact-info -->
+												<div class="single-contact-info">
+													<div class="icon">
+														<i class="fas fa-phone-alt"></i>
+													</div>
+													<p>351 - 217 244 444</p>
+												</div><!-- /.single-contact-info -->
+											</div>
+										</aside>
+									</div>
+									<!--~./ end links widget ~-->
+								</div>
+							</div>
+							<!--~./ end footer widgets area ~-->
+							<div class="copyright-text text-center">
+								<p>Copyright @ <a href="#">Fujitsu </a> 2021</p>
+							</div>
+							<!--~./ end copyright text ~-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--~./ end site footer ~-->
+	</div>
+	<!--~~./ end site content ~~-->
+
+	<!-- All The JS Files
+			================================================== -->
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/plugins.js"></script>
+	<script src="assets/js/imagesloaded.pkgd.min.js"></script>
+	<script src="assets/js/simple-scrollbar.min.js"></script>
+	<script src="assets/js/background-parallax.js"></script>
+	<script src="assets/js/theia-sticky-sidebar.min.js"></script>
+	<script src="assets/js/ResizeSensor.min.js"></script>
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<script src="assets/js/isotope.pkgd.min.js"></script>
+	<script src="assets/js/packery-mode.pkgd.min.js"></script>
+	<script src="assets/js/scrolla.jquery.min.js"></script>
+	<script src="assets/js/odometer.min.js"></script>
+	<script src="assets/js/isInViewport.jquery.js"></script>
+	<script src="assets/js/contact.js"></script>
+	<script src="assets/js/main.js"></script>
+	<!-- main-js -->
+</body>
+
+</html>
